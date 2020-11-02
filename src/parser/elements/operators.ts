@@ -1,6 +1,6 @@
 import { VariableElements } from './variables';
 
-export type OperatorElements = '=' | '-' | '+' | '|' | '&' | '==';
+export type OperatorElements = '=' | '-' | '+' | '|' | '&' | '==' | '!';
 
 export const isOperator = (element: string): element is OperatorElements => {
   return ['=', '-', '+', '|', '&', '=='].includes(element);

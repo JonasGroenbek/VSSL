@@ -1,8 +1,10 @@
 import { AST } from '../AST';
 import { Parsers } from './parsers';
+import { Heap } from './heap';
 
 export class VSSLParser implements Parsers {
+  heap = new Heap();
   parse(VSSL: string): AST {
-    throw new Error('Method not implemented.');
+    return null;
   }
 }
