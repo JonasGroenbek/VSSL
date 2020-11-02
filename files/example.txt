@@ -1,0 +1,6 @@
+VAR BOOLEAN true = TRUE;
+VAR INTEGER int = 50;
+
+IF (true) {
+    int + 50;
+}

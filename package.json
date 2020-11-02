@@ -1,0 +1,24 @@
+{
+  "name": "VSSL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/root.js",
+  "scripts": {
+    "start": "tsc && node dist/root.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.6",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "fs": "0.0.1-security",
+    "prettier": "^2.1.2"
+  }
+}
