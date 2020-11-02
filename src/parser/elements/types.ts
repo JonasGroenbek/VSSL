@@ -1,7 +1,7 @@
 export type TypeElements = 'BOOLEAN' | 'INTEGER';
 
-export const isType = (input: string): input is TypeElements => {
-  return ['BOOLEAN', 'INTEGER'].includes(input);
+export const isType = (element: string): element is TypeElements => {
+  return ['BOOLEAN', 'INTEGER'].includes(element);
 };
 
 export class Type {

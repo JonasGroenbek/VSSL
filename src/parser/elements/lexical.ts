@@ -1,12 +1,12 @@
-export type LexicalTypes = '{' | '}' | ';';
+export type LexicalElements = '{' | '}' | ';';
 
-export const isType = (input: string): input is LexicalTypes => {
-  return ['{', '}', ';'].includes(input);
+export const isLexical = (element: string): element is LexicalElements => {
+  return ['{', '}', ';'].includes(element);
 };
 
 export class Lexical {
-  constructor(type: LexicalTypes) {
-    type + this.type;
+  constructor(element: LexicalElements) {
+    element = this.element;
   }
-  type: LexicalTypes;
+  element: LexicalElements;
 }

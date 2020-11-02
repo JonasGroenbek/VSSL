@@ -1,6 +1,6 @@
 export type VariableElements = any;
 
-export const isType = (input: string): input is VariableElements => {
+export const isVariable = (element: string): element is VariableElements => {
   return true;
 };
 
